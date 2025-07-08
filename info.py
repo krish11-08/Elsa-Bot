@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+API_ID = int(environ[23889056])
+API_HASH = environ[d408c82d4d195a0b22d7efa26519bedf]
+BOT_TOKEN = environ[7837974587:AAHYCpdC9WZhmSWLja_DswsJXZpX8vSqk54]
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -32,12 +32,12 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Elsa-Bot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get(mongodb+srv://Krish:krish0012@cluster0.ibht6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0, "")
+DATABASE_NAME = environ.get('CLUSTER7', "Elsa-Bot")
+COLLECTION_NAME = environ.get(CLUSTER7, 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get(-1002304252182, 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Coding_x')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
