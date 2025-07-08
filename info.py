@@ -37,7 +37,7 @@ DATABASE_NAME = environ.get('CLUSTER7', "Elsa-Bot")
 COLLECTION_NAME = environ.get(CLUSTER7, 'Telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get(-1002304252182, 0))
+LOG_CHANNEL = int(environ.get(-1002371622296, 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Coding_x')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
